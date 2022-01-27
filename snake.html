@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <section style="display: flex; justify-content: center">
+      <div>
+        <h1>Snake Game</h1>
+        <h2 id="score" style="display: flex; justify-content: flex-start;"></h2>
+        <canvas
+          id="canvas"
+          height="600"
+          width="600"
+          style="border: 1px solid black"
+          ></canvas
+        >
+        <div>
+          <p>Your Scores on each round</p>
+          <ol id="scoreOl"></ol>
+        </div>
+      
+      </div>
+    </section>
+
+    <script src="snake.js"></script>
+  </body>
+</html>
